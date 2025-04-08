@@ -31,6 +31,10 @@ const router = createBrowserRouter([
       }
     ]
   }, 
+  {
+    path: '/jobs', 
+    element: <h1>Hello JOBS</h1>,
+  }
 ]);
 
 // NOTE: Use <Link> instead of <a> so that switching URL's is done on
